@@ -359,6 +359,10 @@ body {
   padding: 50px 60px 70px 60px;
 }
 
+.card:hover {
+  background: goldenrod;
+}
+
 .card__top {
   border-bottom: 1px solid #d3d9e9;
 }
