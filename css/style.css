@@ -28,8 +28,16 @@ body {
   line-height: 1.175;
   color: #172755;
 }
-.text {
+
+.header__title:hover{
+  text-decoration: underline  #1147e7;
+}
+
+
+.text:hover {
   line-height: 1.5;
+  color: #6a7fbd;
+  font-size: 20px;
 }
 
 .header__top {
@@ -42,6 +50,9 @@ body {
 
 .header__logo {
   margin-right: 82px;
+}
+.header__img:hover{
+  background: #1147e7;
 }
 
 .menu {
@@ -235,22 +246,31 @@ body {
   text-align: center;
 }
 
-.features__column-img {
+.features__column-img:hover{
   margin-bottom: 26px;
+  background:green;
 }
 
-.features__column-title {
+.features__column-title: {
   margin-bottom: 15px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.1875;
   color: #172755;
 }
+.features__column-title:hover {
+  text-decoration: underline  #1147e7;
+}
 
-.features__column-desc {
+.features__column-desc:{
   font-size: 16px;
   line-height: 1.375;
 }
+.features__column-desc:hover {
+  text-decoration: underline  #1147e7;
+}
+
+
 
 .automated {
   padding-bottom: 114px;
@@ -287,6 +307,11 @@ body {
   width: 600px;
   box-shadow: 0px 18px 50px -15px rgb(25 42 89 / 20%);
   border-radius: 30px;
+}
+.automated__column-img:hover {
+  width: 550px;
+  border-color: goldenrod;
+  background: #1147e7;
 }
 
 .price {

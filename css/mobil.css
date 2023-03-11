@@ -14,8 +14,25 @@
   display: none;
 }
 
+
+.header__row {
+  padding-top: 71px;
+  padding-bottom: 60px;
+  display: grid;
+  align-items: center;
+  column-gap: 81px;
+  padding-left: calc((100% - 1210px) / 2 + 15px);
+  overflow-x: hidden;
+  flex-flow: wrap;
+}
+
+
 .header__content{
-  display: none;
+  order: 2;
+}
+
+.header__img{
+  order: 1;
 }
 
 .header__img {
